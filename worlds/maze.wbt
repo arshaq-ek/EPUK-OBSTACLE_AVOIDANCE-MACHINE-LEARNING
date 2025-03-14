@@ -1,0 +1,110 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.46989212823424376 0.34969038170562355 0.8105047962634572 2.056101626729522
+  position 0.20190357556171196 -1.1483093208033774 2.4703694732496633
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+}
+E-puck {
+  translation -0.454419 -0.429013 0.00160789
+  rotation -0.0024925008062023093 0.0026721708643168006 0.9999933234490134 1.51229
+  controller "AI-MAZE-SOLVER"
+}
+WoodenBox {
+  translation 0.0600021 -0.15 0.04
+  rotation 0 0 1 1.5708
+  name "wooden box(11)"
+  size 0.01 0.19 0.08
+}
+WoodenBox {
+  translation 0.0100019 0.03 0.04
+  rotation 0 0 1 1.5708
+  name "wooden box(13)"
+  size 0.01 0.11 0.08
+}
+WoodenBox {
+  translation 0.15 -0.01 0.04
+  name "wooden box(10)"
+  size 0.01 0.29 0.08
+}
+WoodenBox {
+  translation -0.04 -0.06 0.04
+  name "wooden box(12)"
+  size 0.01 0.18 0.08
+}
+WoodenBox {
+  translation 0.06 -0.02 0.04
+  name "wooden box(14)"
+  size 0.01 0.07 0.08
+}
+WoodenBox {
+  translation 0.0100017 0.14 0.04
+  rotation 0 0 1 1.5708
+  name "wooden box(9)"
+  size 0.01 0.29 0.08
+}
+WoodenBox {
+  translation -0.14 -0.05 0.04
+  name "wooden box(8)"
+  size 0.01 0.39 0.08
+}
+WoodenBox {
+  translation 0.0600023 -0.25 0.04
+  rotation 0 0 1 1.5708
+  name "wooden box(7)"
+  size 0.01 0.41 0.08
+}
+WoodenBox {
+  translation 0.26 0 0.04
+  name "wooden box(6)"
+  size 0.01 0.52 0.08
+}
+WoodenBox {
+  translation 4.04052e-07 0.27 0.04
+  rotation 0 0 1 1.5708
+  name "wooden box(5)"
+  size 0.01 0.53 0.08
+}
+WoodenBox {
+  translation -0.26 -0.05 0.04
+  name "wooden box(4)"
+  size 0.01 0.62 0.08
+}
+WoodenBox {
+  translation -0.38 -0.05 0.04
+  size 0.01 0.87 0.08
+}
+WoodenBox {
+  translation 0.38 0.01 0.04
+  name "wooden box(2)"
+  size 0.01 0.75 0.08
+}
+WoodenBox {
+  translation -6.74634e-14 0.38 0.04
+  rotation 0 0 1 1.5708
+  name "wooden box(1)"
+  size 0.01 0.76 0.08
+}
+WoodenBox {
+  translation 0.0600027 -0.36 0.04
+  rotation 0 0 1 1.5708
+  name "wooden box(3)"
+  size 0.01 0.64 0.08
+}
